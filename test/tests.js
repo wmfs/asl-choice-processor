@@ -80,4 +80,36 @@ describe('Choice tests', function () {
     expect(calculateNextState({foo: ['B', 'C']})).to.equal('SecondMatchState')
     expect(calculateNextState({foo: ['E', 'F']})).to.equal('DefaultMatchState')
   })
+
+  it('Should test the state using IsUndefined', () => {
+    const calculateNextState = choiceProcessor(
+      {
+        Choices: [
+          {
+            Variable: '$.foo',
+            IsUndefined: true,
+            Next: 'UndefinedState'
+          }
+        ],
+        Default: 'DefinedState'
+      }
+    )
+    expect(calculateNextState({foo: undefined})).to.eql('UndefinedState')
+    expect(calculateNextState({foo: 'HELLO_WORLD'})).to.eql('DefinedState')
+
+    const calculateNextState_1 = choiceProcessor(
+      {
+        Choices: [
+          {
+            Variable: '$.foo',
+            IsUndefined: false,
+            Next: 'DefinedState'
+          }
+        ],
+        Default: 'UndefinedState'
+      }
+    )
+    expect(calculateNextState_1({foo: undefined})).to.eql('UndefinedState')
+    expect(calculateNextState_1({foo: 'HELLO_WORLD'})).to.eql('DefinedState')
+  })
 })
