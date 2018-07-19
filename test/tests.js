@@ -97,7 +97,7 @@ describe('Choice tests', function () {
     expect(calculateNextState({foo: undefined})).to.eql('UndefinedState')
     expect(calculateNextState({foo: 'HELLO_WORLD'})).to.eql('DefinedState')
 
-    const calculateNextState_1 = choiceProcessor(
+    const calculateNextState1 = choiceProcessor(
       {
         Choices: [
           {
@@ -109,7 +109,7 @@ describe('Choice tests', function () {
         Default: 'UndefinedState'
       }
     )
-    expect(calculateNextState_1({foo: undefined})).to.eql('UndefinedState')
-    expect(calculateNextState_1({foo: 'HELLO_WORLD'})).to.eql('DefinedState')
+    expect(calculateNextState1({foo: undefined})).to.eql('UndefinedState')
+    expect(calculateNextState1({foo: 'HELLO_WORLD'})).to.eql('DefinedState')
   })
 })
