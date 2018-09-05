@@ -29,9 +29,9 @@ describe('Choice tests', function () {
         ]
       }
     )
-    expect(calculateNextState({foo: true})).to.equal('FirstMatchState')
-    expect(calculateNextState({foo: false})).to.equal('SecondMatchState')
-    expect(calculateNextState({foo: 'Unexpected!'})).to.equal(undefined)
+    expect(calculateNextState({ foo: true })).to.equal('FirstMatchState')
+    expect(calculateNextState({ foo: false })).to.equal('SecondMatchState')
+    expect(calculateNextState({ foo: 'Unexpected!' })).to.equal(undefined)
     expect(calculateNextState({})).to.equal(undefined)
   })
 
@@ -53,9 +53,9 @@ describe('Choice tests', function () {
         Default: 'DefaultMatchState'
       }
     )
-    expect(calculateNextState({foo: 1})).to.equal('FirstMatchState')
-    expect(calculateNextState({foo: 2})).to.equal('SecondMatchState')
-    expect(calculateNextState({foo: 3})).to.equal('DefaultMatchState')
+    expect(calculateNextState({ foo: 1 })).to.equal('FirstMatchState')
+    expect(calculateNextState({ foo: 2 })).to.equal('SecondMatchState')
+    expect(calculateNextState({ foo: 3 })).to.equal('DefaultMatchState')
   })
 
   it('Should pick a simple state using Includes', function () {
@@ -76,9 +76,9 @@ describe('Choice tests', function () {
         Default: 'DefaultMatchState'
       }
     )
-    expect(calculateNextState({foo: ['A', 'G']})).to.equal('FirstMatchState')
-    expect(calculateNextState({foo: ['B', 'C']})).to.equal('SecondMatchState')
-    expect(calculateNextState({foo: ['E', 'F']})).to.equal('DefaultMatchState')
+    expect(calculateNextState({ foo: ['A', 'G'] })).to.equal('FirstMatchState')
+    expect(calculateNextState({ foo: ['B', 'C'] })).to.equal('SecondMatchState')
+    expect(calculateNextState({ foo: ['E', 'F'] })).to.equal('DefaultMatchState')
   })
 
   it('Should test the state using IsUndefined', () => {
@@ -94,8 +94,8 @@ describe('Choice tests', function () {
         Default: 'DefinedState'
       }
     )
-    expect(calculateNextState({foo: undefined})).to.eql('UndefinedState')
-    expect(calculateNextState({foo: 'HELLO_WORLD'})).to.eql('DefinedState')
+    expect(calculateNextState({ foo: undefined })).to.eql('UndefinedState')
+    expect(calculateNextState({ foo: 'HELLO_WORLD' })).to.eql('DefinedState')
 
     const calculateNextState1 = choiceProcessor(
       {
@@ -109,7 +109,7 @@ describe('Choice tests', function () {
         Default: 'UndefinedState'
       }
     )
-    expect(calculateNextState1({foo: undefined})).to.eql('UndefinedState')
-    expect(calculateNextState1({foo: 'HELLO_WORLD'})).to.eql('DefinedState')
+    expect(calculateNextState1({ foo: undefined })).to.eql('UndefinedState')
+    expect(calculateNextState1({ foo: 'HELLO_WORLD' })).to.eql('DefinedState')
   })
 })
