@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/wmfs/asl-choice-processor/compare/v1.4.0...v1.5.0) (2018-09-11)
+
+
+### 🛠 Builds
+
+* **deps:** update debug requirement from 3.2.2 to 4.0.0 ([b86323a](https://github.com/wmfs/asl-choice-processor/commit/b86323a))
+
 # [1.4.0](https://github.com/wmfs/asl-choice-processor/compare/v1.3.0...v1.4.0) (2018-09-11)
 
 
