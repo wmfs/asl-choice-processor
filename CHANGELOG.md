@@ -1,3 +1,32 @@
+# [1.3.0](https://github.com/wmfs/asl-choice-processor/compare/v1.2.0...v1.3.0) (2018-09-11)
+
+
+### 🛠 Builds
+
+* **deps:** update debug requirement from 3.1.0 to 3.2.1 ([926442d](https://github.com/wmfs/asl-choice-processor/commit/926442d))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement from 7.0.1 to 7.0.2 ([8dc2422](https://github.com/wmfs/asl-choice-processor/commit/8dc2422))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement from 7.0.2 to 7.0.3 ([911d3a3](https://github.com/wmfs/asl-choice-processor/commit/911d3a3))
+* **deps-dev:** update codecov requirement from 3.0.4 to 3.1.0 ([dc47f11](https://github.com/wmfs/asl-choice-processor/commit/dc47f11))
+* **deps-dev:** update nyc requirement from 12.0.2 to 13.0.1 ([9e1cc85](https://github.com/wmfs/asl-choice-processor/commit/9e1cc85))
+* **deps-dev:** update semantic-release requirement ([b763267](https://github.com/wmfs/asl-choice-processor/commit/b763267))
+* **deps-dev:** update semantic-release requirement ([f1984b0](https://github.com/wmfs/asl-choice-processor/commit/f1984b0))
+* **deps-dev:** update semantic-release requirement from 15.9.11 to 15.9.12 ([e994e6e](https://github.com/wmfs/asl-choice-processor/commit/e994e6e))
+* **deps-dev:** update semantic-release requirement from 15.9.3 to 15.9.5 ([20905e4](https://github.com/wmfs/asl-choice-processor/commit/20905e4))
+* **deps-dev:** update semantic-release requirement from 15.9.5 to 15.9.6 ([4a4d88e](https://github.com/wmfs/asl-choice-processor/commit/4a4d88e))
+* **deps-dev:** update semantic-release requirement from 15.9.6 to 15.9.7 ([bb7469f](https://github.com/wmfs/asl-choice-processor/commit/bb7469f))
+* **deps-dev:** update semantic-release requirement from 15.9.7 to 15.9.8 ([5ba8501](https://github.com/wmfs/asl-choice-processor/commit/5ba8501))
+* **deps-dev:** update semantic-release requirement from 15.9.8 to 15.9.9 ([aeadad1](https://github.com/wmfs/asl-choice-processor/commit/aeadad1))
+* **deps-dev:** update semantic-release requirement from 15.9.9 to 15.9.11 ([c34480e](https://github.com/wmfs/asl-choice-processor/commit/c34480e))
+* **deps-dev:** update semantic-release requirement to 15.9.1 ([4ea7d25](https://github.com/wmfs/asl-choice-processor/commit/4ea7d25))
+* **deps-dev:** update semantic-release requirement to 15.9.2 ([06b8413](https://github.com/wmfs/asl-choice-processor/commit/06b8413))
+* **deps-dev:** update semantic-release requirement to 15.9.3 ([a1228dc](https://github.com/wmfs/asl-choice-processor/commit/a1228dc))
+* **dev-deps:** Move to standard 12.0.1 ([5e3a1e5](https://github.com/wmfs/asl-choice-processor/commit/5e3a1e5))
+
+
+### ♻️ Chores
+
+* codecov: 3.0.3 -> 3.0.4 ([c8887bb](https://github.com/wmfs/asl-choice-processor/commit/c8887bb))
+
 # [1.2.0](https://github.com/wmfs/asl-choice-processor/compare/v1.1.0...v1.2.0) (2018-07-19)
 
 
