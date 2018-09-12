@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/wmfs/asl-choice-processor/compare/v1.6.0...v1.7.0) (2018-09-12)
+
+
+### 🛠 Builds
+
+* **deps:** update lodash requirement from 4.17.10 to 4.17.11 ([0cc16b1](https://github.com/wmfs/asl-choice-processor/commit/0cc16b1))
+
 # [1.6.0](https://github.com/wmfs/asl-choice-processor/compare/v1.5.0...v1.6.0) (2018-09-11)
 
 
