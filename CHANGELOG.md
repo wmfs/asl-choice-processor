@@ -1,3 +1,17 @@
+# [1.9.0](https://github.com/wmfs/asl-choice-processor/compare/v1.8.0...v1.9.0) (2018-11-01)
+
+
+### 🛠 Builds
+
+* **deps:** update boom requirement from 7.2.0 to 7.2.1 ([b2b4644](https://github.com/wmfs/asl-choice-processor/commit/b2b4644))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/changelog requirement ([3b57947](https://github.com/wmfs/asl-choice-processor/commit/3b57947))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([3036878](https://github.com/wmfs/asl-choice-processor/commit/3036878))
+* **deps-dev:** update nyc requirement from 13.0.1 to 13.1.0 ([9de6499](https://github.com/wmfs/asl-choice-processor/commit/9de6499))
+* **deps-dev:** update semantic-release requirement ([941decb](https://github.com/wmfs/asl-choice-processor/commit/941decb))
+* **deps-dev:** update semantic-release requirement ([bc2b54d](https://github.com/wmfs/asl-choice-processor/commit/bc2b54d))
+* **deps-dev:** update semantic-release requirement ([1f06491](https://github.com/wmfs/asl-choice-processor/commit/1f06491))
+* **deps-dev:** update semantic-release requirement ([bf00a16](https://github.com/wmfs/asl-choice-processor/commit/bf00a16))
+
 # [1.8.0](https://github.com/wmfs/asl-choice-processor/compare/v1.7.0...v1.8.0) (2018-10-08)
 
 
