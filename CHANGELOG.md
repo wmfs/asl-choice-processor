@@ -1,3 +1,11 @@
+# [1.10.0](https://github.com/wmfs/asl-choice-processor/compare/v1.9.0...v1.10.0) (2018-11-03)
+
+
+### 🛠 Builds
+
+* **deps:** update boom requirement from 7.2.1 to 7.2.2 ([8288a3a](https://github.com/wmfs/asl-choice-processor/commit/8288a3a))
+* **deps-dev:** update semantic-release requirement ([8e40599](https://github.com/wmfs/asl-choice-processor/commit/8e40599))
+
 # [1.9.0](https://github.com/wmfs/asl-choice-processor/compare/v1.8.0...v1.9.0) (2018-11-01)
 
 
