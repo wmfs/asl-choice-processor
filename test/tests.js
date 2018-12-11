@@ -31,8 +31,9 @@ describe('Choice tests', function () {
     )
     expect(calculateNextState({ foo: true })).to.equal('FirstMatchState')
     expect(calculateNextState({ foo: false })).to.equal('SecondMatchState')
-    expect(calculateNextState({ foo: 'Unexpected!' })).to.equal(undefined)
-    expect(calculateNextState({})).to.equal(undefined)
+    expect(calculateNextState({ foo: 'Unexpected!' })).to.equal(null)
+    expect(calculateNextState({})).to.equal(null)
+    expect(calculateNextState(undefined)).to.equal(null)
   })
 
   it('Should pick a simple state using NumericEquals', function () {
