@@ -1,3 +1,19 @@
+## [1.10.1](https://github.com/wmfs/asl-choice-processor/compare/v1.10.0...v1.10.1) (2018-12-11)
+
+
+### 🐛 Bug Fixes
+
+* Choice processor would fail on undefined or null input ([3d6e801](https://github.com/wmfs/asl-choice-processor/commit/3d6e801))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update semantic-release requirement ([5be0b13](https://github.com/wmfs/asl-choice-processor/commit/5be0b13))
+* **deps-dev:** update semantic-release requirement ([037ce9b](https://github.com/wmfs/asl-choice-processor/commit/037ce9b))
+* **deps-dev:** update semantic-release requirement ([4e3d064](https://github.com/wmfs/asl-choice-processor/commit/4e3d064))
+* **deps-dev:** update semantic-release requirement ([0e437c7](https://github.com/wmfs/asl-choice-processor/commit/0e437c7))
+* **deps-dev:** update semantic-release requirement ([169b1e8](https://github.com/wmfs/asl-choice-processor/commit/169b1e8))
+
 # [1.10.0](https://github.com/wmfs/asl-choice-processor/compare/v1.9.0...v1.10.0) (2018-11-03)
 
 
