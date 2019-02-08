@@ -1,3 +1,13 @@
+# [1.11.0](https://github.com/wmfs/asl-choice-processor/compare/v1.10.1...v1.11.0) (2019-02-08)
+
+
+### 🛠 Builds
+
+* **deps:** Bump debug and boom ([f9af421](https://github.com/wmfs/asl-choice-processor/commit/f9af421))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([50c92a3](https://github.com/wmfs/asl-choice-processor/commit/50c92a3))
+* **deps-dev:** update semantic-release requirement ([b650789](https://github.com/wmfs/asl-choice-processor/commit/b650789))
+* **dev-deps:** Update semantic-release and friends ([801270d](https://github.com/wmfs/asl-choice-processor/commit/801270d))
+
 ## [1.10.1](https://github.com/wmfs/asl-choice-processor/compare/v1.10.0...v1.10.1) (2018-12-11)
 
 
