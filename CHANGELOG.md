@@ -1,3 +1,24 @@
+# [1.12.0](https://github.com/wmfs/asl-choice-processor/compare/v1.11.0...v1.12.0) (2019-07-11)
+
+
+### 🛠 Builds
+
+* **deps:** update lodash requirement from 4.17.11 to 4.17.14 ([49f7d78](https://github.com/wmfs/asl-choice-processor/commit/49f7d78))
+* **deps-dev:** update mocha requirement from 5.2.0 to 6.1.4 ([fc273fd](https://github.com/wmfs/asl-choice-processor/commit/fc273fd))
+* **deps-dev:** update nyc requirement from 13.2.0 to 14.1.1 ([b02bdd4](https://github.com/wmfs/asl-choice-processor/commit/b02bdd4))
+* **deps-dev:** update semantic-release requirement ([dae2ef2](https://github.com/wmfs/asl-choice-processor/commit/dae2ef2))
+
+
+### 📚 Documentation
+
+* Add CircleCI badge ([a17b3ec](https://github.com/wmfs/asl-choice-processor/commit/a17b3ec))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Add CircleCI config ([475cae6](https://github.com/wmfs/asl-choice-processor/commit/475cae6))
+* **travis:** Remove Travis config ([8a0cb8b](https://github.com/wmfs/asl-choice-processor/commit/8a0cb8b))
+
 # [1.11.0](https://github.com/wmfs/asl-choice-processor/compare/v1.10.1...v1.11.0) (2019-02-08)
 
 
