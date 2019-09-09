@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/wmfs/asl-choice-processor/compare/v1.13.0...v1.14.0) (2019-09-09)
+
+
+### 🛠 Builds
+
+* **deps:** update jsonpath requirement from 1.0.0 to 1.0.2 ([5516665](https://github.com/wmfs/asl-choice-processor/commit/5516665))
+
 # [1.13.0](https://github.com/wmfs/asl-choice-processor/compare/v1.12.0...v1.13.0) (2019-09-09)
 
 
