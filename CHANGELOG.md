@@ -1,3 +1,64 @@
+# [1.15.0](https://github.com/wmfs/asl-choice-processor/compare/v1.14.0...v1.15.0) (2020-07-13)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.15 to 4.17.19 ([c87aeab](https://github.com/wmfs/asl-choice-processor/commit/c87aeab8ad6dcf9ab06bf499a276711c548f054c))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 3.0.6 to 5.0.0 ([fb4b786](https://github.com/wmfs/asl-choice-processor/commit/fb4b7865efa27fdbcdd84acddca519a59b9884b2))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 5.0.0 to 5.0.1 ([20b0db0](https://github.com/wmfs/asl-choice-processor/commit/20b0db0004c801c331be52b39e37745277b61d84))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/git from 7.0.18 to 9.0.0 ([9e4b2d6](https://github.com/wmfs/asl-choice-processor/commit/9e4b2d6014570d94cf950407ba9b1f6e88e61287))
+* **deps-dev:** bump codecov from 3.6.1 to 3.6.2 ([0b14e53](https://github.com/wmfs/asl-choice-processor/commit/0b14e537451fbc04b6a314367fbe04f7f6e38a83))
+* **deps-dev:** bump codecov from 3.6.2 to 3.6.3 ([1f76704](https://github.com/wmfs/asl-choice-processor/commit/1f76704b61597523aac87383fe65452f7a40a1e7))
+* **deps-dev:** bump codecov from 3.6.3 to 3.6.4 ([377c2d3](https://github.com/wmfs/asl-choice-processor/commit/377c2d3496243ebebf01e433a19cd00502e1711f))
+* **deps-dev:** bump codecov from 3.6.4 to 3.6.5 ([c05ec4c](https://github.com/wmfs/asl-choice-processor/commit/c05ec4c7ecfd3a97d96b04c604d70dbbcbfda32f))
+* **deps-dev:** bump codecov from 3.6.5 to 3.7.0 ([1f1033f](https://github.com/wmfs/asl-choice-processor/commit/1f1033f13c0f2f5467c8d7d6c5fb5c9127dae98a))
+* **deps-dev:** bump conventional-changelog-metahub from 3.0.0 to 4.0.0 ([609e76f](https://github.com/wmfs/asl-choice-processor/commit/609e76fe6dc92f1e4bafb2c40e2f9e1ea3bd148e))
+* **deps-dev:** bump conventional-changelog-metahub from 4.0.0 to 4.0.1 ([443fcb8](https://github.com/wmfs/asl-choice-processor/commit/443fcb84b95cefe4d3e93665a29acdefa50161de))
+* **deps-dev:** bump cz-conventional-changelog from 3.0.2 to 3.1.0 ([59467b0](https://github.com/wmfs/asl-choice-processor/commit/59467b03e4102fb03926379b89a44a5c692da673))
+* **deps-dev:** bump cz-conventional-changelog from 3.1.0 to 3.2.0 ([aa5ab47](https://github.com/wmfs/asl-choice-processor/commit/aa5ab47ed62a6b99886d9b0cbb375bdb9957082d))
+* **deps-dev:** bump mocha from 6.2.2 to 7.0.0 ([513844d](https://github.com/wmfs/asl-choice-processor/commit/513844d8c0ab14ec2c06be73c91589d0c89151df))
+* **deps-dev:** bump mocha from 7.0.0 to 7.0.1 ([628ca15](https://github.com/wmfs/asl-choice-processor/commit/628ca15de71071f23a9b98522b98d7ed4e6a564b))
+* **deps-dev:** bump mocha from 7.0.1 to 7.1.0 ([918549a](https://github.com/wmfs/asl-choice-processor/commit/918549afd8fa135ae9779fcde37d1cdab32e0226))
+* **deps-dev:** bump mocha from 7.1.0 to 7.1.1 ([2bcfa29](https://github.com/wmfs/asl-choice-processor/commit/2bcfa29f8c40164432a1cc7751d295ecb36538f4))
+* **deps-dev:** bump mocha from 7.1.1 to 7.1.2 ([9f6d55c](https://github.com/wmfs/asl-choice-processor/commit/9f6d55c86e4e926f7b4a1a82a9d3ba33e899ad41))
+* **deps-dev:** bump mocha from 7.1.2 to 7.2.0 ([b038f9a](https://github.com/wmfs/asl-choice-processor/commit/b038f9a818ef471655d0f253358f3a2fa7504019))
+* **deps-dev:** bump mocha from 7.2.0 to 8.0.1 ([06aff93](https://github.com/wmfs/asl-choice-processor/commit/06aff9345a7cb9fd71ef235d4db4bd81a062e485))
+* **deps-dev:** bump nyc from 15.0.0 to 15.0.1 ([0303aa6](https://github.com/wmfs/asl-choice-processor/commit/0303aa6d6da6542f9c0aa7c35a10b47fcabad6af))
+* **deps-dev:** bump nyc from 15.0.1 to 15.1.0 ([29406eb](https://github.com/wmfs/asl-choice-processor/commit/29406eb6b9f3a8735a25ae8ee067107502d75027))
+* **deps-dev:** bump packages ([038e8ab](https://github.com/wmfs/asl-choice-processor/commit/038e8ab26d1654c58b7f22c26e4f02cd3b7ba76f))
+* **deps-dev:** bump semantic-release from 15.14.0 to 17.0.2 ([989547d](https://github.com/wmfs/asl-choice-processor/commit/989547dd8bbb2b74c68b5b70eec058512dd35de9))
+* **deps-dev:** bump semantic-release from 17.0.2 to 17.0.3 ([36ec46f](https://github.com/wmfs/asl-choice-processor/commit/36ec46fc16c80a73ed428ceafd9b9ca7be6d6df6))
+* **deps-dev:** bump semantic-release from 17.0.3 to 17.0.4 ([aacc1ac](https://github.com/wmfs/asl-choice-processor/commit/aacc1ac145f6c7c3525b9f98c42e499b14a1d48d))
+* **deps-dev:** bump semantic-release from 17.0.4 to 17.0.5 ([e819097](https://github.com/wmfs/asl-choice-processor/commit/e819097b97c9229f25a866ee3040bcc49be9353a))
+* **deps-dev:** bump semantic-release from 17.0.5 to 17.0.6 ([59a0bf1](https://github.com/wmfs/asl-choice-processor/commit/59a0bf16fa0a6fe9af4be62d4d447b0a2b9fae14))
+* **deps-dev:** bump semantic-release from 17.0.6 to 17.0.7 ([513f4d4](https://github.com/wmfs/asl-choice-processor/commit/513f4d463ecebd1616e522f907c6ce13c5a1805a))
+* **deps-dev:** bump semantic-release from 17.0.7 to 17.0.8 ([09fcc57](https://github.com/wmfs/asl-choice-processor/commit/09fcc573812ed80a9be5a1f1025f6ffcc3d74825))
+* **deps-dev:** bump semantic-release from 17.0.8 to 17.1.0 ([a5a116d](https://github.com/wmfs/asl-choice-processor/commit/a5a116dc9761cf85154e8c0329736f7ff078cb68))
+* **deps-dev:** bump semantic-release from 17.1.0 to 17.1.1 ([c300037](https://github.com/wmfs/asl-choice-processor/commit/c30003780aed22c3c681cdac66ce991290ee1876))
+* **deps-dev:** bump standard from 14.3.1 to 14.3.2 ([bfe6206](https://github.com/wmfs/asl-choice-processor/commit/bfe6206feff708a6c03e83564c4eb3ccb1451a1e))
+* **deps-dev:** bump standard from 14.3.2 to 14.3.3 ([26d5104](https://github.com/wmfs/asl-choice-processor/commit/26d5104d43786e8b30353054cd5f580f0c99bd89))
+* **deps-dev:** bump standard from 14.3.3 to 14.3.4 ([cdb792c](https://github.com/wmfs/asl-choice-processor/commit/cdb792cfe4c42ccd38aecca60b4ceb18ef73b18e))
+* Removed unused boom and debug dependencies. ([054aefb](https://github.com/wmfs/asl-choice-processor/commit/054aefb99f08d70e7c8e2b7013f78e801af3a699))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/changelog requirement ([05580ba](https://github.com/wmfs/asl-choice-processor/commit/05580ba64dce8998c0a68d6c57d25368d523ff1a))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([d1924d6](https://github.com/wmfs/asl-choice-processor/commit/d1924d66b4dea37fcaa242f4c21b7a8b319b400b))
+* **deps-dev:** update codecov requirement from 3.1.0 to 3.5.0 ([c247916](https://github.com/wmfs/asl-choice-processor/commit/c247916ae8b5acd92cdb8d4e8be8ef22ea7df87c))
+* **deps-dev:** update cz-conventional-changelog requirement ([85ede2e](https://github.com/wmfs/asl-choice-processor/commit/85ede2efb2b56e9d533020a14daa4887db850e8c))
+* **deps-dev:** update mocha requirement from 6.1.4 to 6.2.0 ([8f8aa1d](https://github.com/wmfs/asl-choice-processor/commit/8f8aa1d8047193ba80265681d7b3d9e215c1d489))
+* **deps-dev:** update semantic-release requirement ([547ce22](https://github.com/wmfs/asl-choice-processor/commit/547ce2279b5417aff547c3c9f212fa87fdc7171a))
+* **deps-dev:** update standard requirement from 12.0.1 to 14.3.1 ([747cf3f](https://github.com/wmfs/asl-choice-processor/commit/747cf3f09abdf5c9b19b04991f9789507a50d476))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add context env var config to config.yml ([8edb244](https://github.com/wmfs/asl-choice-processor/commit/8edb2448f220085437c649b018e5ddd4375dbf52))
+* **circle:** use updated circle node image [skip ci] ([8e7ceb0](https://github.com/wmfs/asl-choice-processor/commit/8e7ceb0f7af9302d5b2ff6f784197b2547f2e071))
+
+
+### 💎 Styles
+
+* Do not access Object.prototype method 'hasOwnProperty' from target object ([65cd889](https://github.com/wmfs/asl-choice-processor/commit/65cd88911f9eb6b987566aefd4f7f127b8b8d40b))
+* standard --fix ([b25f11f](https://github.com/wmfs/asl-choice-processor/commit/b25f11f2f1100582455383a6fd73d9edb2ae3842))
+
 # [1.14.0](https://github.com/wmfs/asl-choice-processor/compare/v1.13.0...v1.14.0) (2019-09-09)
 
 
