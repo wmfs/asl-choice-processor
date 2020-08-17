@@ -1,3 +1,19 @@
+# [1.16.0](https://github.com/wmfs/asl-choice-processor/compare/v1.15.0...v1.16.0) (2020-08-17)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.19 to 4.17.20 ([be3d251](https://github.com/wmfs/asl-choice-processor/commit/be3d2513d8991acd8d1509563203af35522ba40e))
+* **deps-dev:** bump codecov from 3.7.0 to 3.7.1 ([d552d76](https://github.com/wmfs/asl-choice-processor/commit/d552d768d191be28326515950065bc38f07486d1))
+* **deps-dev:** bump codecov from 3.7.1 to 3.7.2 ([c36354c](https://github.com/wmfs/asl-choice-processor/commit/c36354cdc310d39026cb3bdf088e8ee848e444f5))
+* **deps-dev:** bump mocha from 8.0.1 to 8.1.0 ([1e0d1bb](https://github.com/wmfs/asl-choice-processor/commit/1e0d1bbdf99262e213a1375b9a13b957cfd14584))
+* **deps-dev:** bump mocha from 8.1.0 to 8.1.1 ([978ab63](https://github.com/wmfs/asl-choice-processor/commit/978ab63434409398ea90d38d58e27bb9b96c1a6c))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** separate lint job [ch1009] ([36c9754](https://github.com/wmfs/asl-choice-processor/commit/36c9754c45aa0fe68e4e124e93945cb49b5c7ab2))
+
 # [1.15.0](https://github.com/wmfs/asl-choice-processor/compare/v1.14.0...v1.15.0) (2020-07-13)
 
 
