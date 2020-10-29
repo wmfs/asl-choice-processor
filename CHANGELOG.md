@@ -1,3 +1,44 @@
+# [1.17.0](https://github.com/wmfs/asl-choice-processor/compare/v1.16.0...v1.17.0) (2020-10-29)
+
+
+### ✨ Features
+
+* IsNull, Path operators, more testing ([c8feba9](https://github.com/wmfs/asl-choice-processor/commit/c8feba9724b1c2740d8c97bc2c1cd937b77618fd))
+* refactor and enable And, Not, Or operators with tests ([936bb39](https://github.com/wmfs/asl-choice-processor/commit/936bb39cefb98717dba89acf1370b940da39152b))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump codecov from 3.7.2 to 3.8.0 ([7b51e45](https://github.com/wmfs/asl-choice-processor/commit/7b51e459c3f2b611f4cf3fc599c09c4bd80a57ab))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.0 to 3.2.1 ([49c1317](https://github.com/wmfs/asl-choice-processor/commit/49c13175a38c6fc4ef2759fe6d5e136cebff02d6))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.1 to 3.3.0 ([ca23925](https://github.com/wmfs/asl-choice-processor/commit/ca23925c3fdc4a9e9fba72a9778e95875f7d98f6))
+* **deps-dev:** bump mocha from 8.1.1 to 8.1.2 ([6dcf6c5](https://github.com/wmfs/asl-choice-processor/commit/6dcf6c5d4e85e8e084974809f0621cc10f107c77))
+* **deps-dev:** bump mocha from 8.1.2 to 8.1.3 ([c98dd2f](https://github.com/wmfs/asl-choice-processor/commit/c98dd2ff014ee69a8844cb9f8d3a8c6163e2c8d1))
+* **deps-dev:** bump mocha from 8.1.3 to 8.2.0 ([4d48e1b](https://github.com/wmfs/asl-choice-processor/commit/4d48e1b1aa233d37f57533729d45f12896293ef4))
+* **deps-dev:** bump semantic-release from 17.1.1 to 17.1.2 ([02286bf](https://github.com/wmfs/asl-choice-processor/commit/02286bf82e9ff039c2bb9ff18f430f0fb9652cc9))
+* **deps-dev:** bump semantic-release from 17.1.2 to 17.2.0 ([135bea2](https://github.com/wmfs/asl-choice-processor/commit/135bea2e315b420558d5e1b61be23172b7553bff))
+* **deps-dev:** bump semantic-release from 17.2.0 to 17.2.1 ([4c812fd](https://github.com/wmfs/asl-choice-processor/commit/4c812fd54d9468e7093273641b010d3fad6dc5d9))
+* **deps-dev:** bump standard from 14.3.4 to 15.0.0 ([7945065](https://github.com/wmfs/asl-choice-processor/commit/7945065cf301835d8062f2301b0be19f99c12f38))
+* **deps-dev:** bump standard from 15.0.0 to 15.0.1 ([7188093](https://github.com/wmfs/asl-choice-processor/commit/71880931d6147aadeaa9d749c6ac069e96ce80dc))
+
+
+### 📦 Code Refactoring
+
+* rename property for the operator function ([c91d570](https://github.com/wmfs/asl-choice-processor/commit/c91d570f099e43108232209caab7edce0163a096))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** authenticate Docker image pull [ch2767] ([9e2160d](https://github.com/wmfs/asl-choice-processor/commit/9e2160dd86df94b41f47e75fb6134860a4801f3b))
+* **circle:** cache dependencies [ch2770] ([c46e3ce](https://github.com/wmfs/asl-choice-processor/commit/c46e3cea7c0480bb40cdd40085d9bfab7ca72843))
+* **circle:** separate linting job [ch1009] ([ffcdcb6](https://github.com/wmfs/asl-choice-processor/commit/ffcdcb68b35ff9a211f6d139d8b0acb86e56233c))
+* **circle:** update build environment variable context name [ch2771] ([2b65e75](https://github.com/wmfs/asl-choice-processor/commit/2b65e75ac47caddd56a3327f299acefd4837d85a))
+
+
+### 💎 Styles
+
+* standard fix ([dca19fa](https://github.com/wmfs/asl-choice-processor/commit/dca19fa215dbba85359dfc3529cbdaa174576be4))
+
 # [1.16.0](https://github.com/wmfs/asl-choice-processor/compare/v1.15.0...v1.16.0) (2020-08-17)
 
 
