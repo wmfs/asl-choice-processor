@@ -73,46 +73,48 @@ const tests = {
   ]
 }
 
-for (const [operator, t] of Object.entries(tests)) {
-  describe(operator, () => {
-    for (const [input, comparisonValue, expected] of t) {
-      it(`Input: ${input} Comparison: ${comparisonValue}`, () => {
-        const calculateNextState = choiceProcessor(
-          {
-            Choices: [
-              {
-                Variable: '$.foo',
-                [operator]: comparisonValue,
-                Next: 'NextState'
-              }
-            ],
-            Default: 'DefaultState'
-          }
-        )
-        const result = calculateNextState({ foo: input })
-        expect(result).to.eql(expected)
-      })
-    }
-  })
+describe('Data-test expression', () => {
+  for (const [operator, t] of Object.entries(tests)) {
+    describe(operator, () => {
+      for (const [input, comparisonValue, expected] of t) {
+        it(`Input: ${input} Comparison: ${comparisonValue}`, () => {
+          const calculateNextState = choiceProcessor(
+            {
+              Choices: [
+                {
+                  Variable: '$.foo',
+                  [operator]: comparisonValue,
+                  Next: 'NextState'
+                }
+              ],
+              Default: 'DefaultState'
+            }
+          )
+          const result = calculateNextState({ foo: input })
+          expect(result).to.eql(expected)
+        })
+      }
+    })
 
-  describe(`${operator}Path`, () => {
-    for (const [input, comparisonValue, expected] of t) {
-      it(`Input: ${input} Comparison: ${comparisonValue}`, () => {
-        const calculateNextState = choiceProcessor(
-          {
-            Choices: [
-              {
-                Variable: '$.foo',
-                [`${operator}Path`]: '$.comparison',
-                Next: 'NextState'
-              }
-            ],
-            Default: 'DefaultState'
-          }
-        )
-        const result = calculateNextState({ foo: input, comparison: comparisonValue })
-        expect(result).to.eql(expected)
-      })
-    }
-  })
-}
+    describe(`${operator}Path`, () => {
+      for (const [input, comparisonValue, expected] of t) {
+        it(`Input: ${input} Comparison: ${comparisonValue}`, () => {
+          const calculateNextState = choiceProcessor(
+            {
+              Choices: [
+                {
+                  Variable: '$.foo',
+                  [`${operator}Path`]: '$.comparison',
+                  Next: 'NextState'
+                }
+              ],
+              Default: 'DefaultState'
+            }
+          )
+          const result = calculateNextState({ foo: input, comparison: comparisonValue })
+          expect(result).to.eql(expected)
+        })
+      }
+    })
+  }
+})
