@@ -1,3 +1,23 @@
+# [1.18.0](https://github.com/wmfs/asl-choice-processor/compare/v1.17.0...v1.18.0) (2021-01-19)
+
+
+### 🛠 Builds
+
+* **deps:** bump jsonpath from 1.0.2 to 1.1.0 ([12ef282](https://github.com/wmfs/asl-choice-processor/commit/12ef2822863d2b37bf7fd011449dec2817b7cb56))
+* **deps-dev:** bump codecov from 3.8.0 to 3.8.1 ([092b25c](https://github.com/wmfs/asl-choice-processor/commit/092b25c253448eb3eb36d6f07bd8e25971068c3d))
+* **deps-dev:** bump mocha from 8.2.0 to 8.2.1 ([cfd3f33](https://github.com/wmfs/asl-choice-processor/commit/cfd3f330e1a99489345a319c8c4b195b7dd0e548))
+* **deps-dev:** bump semantic-release from 17.2.1 to 17.2.2 ([8bc6bc1](https://github.com/wmfs/asl-choice-processor/commit/8bc6bc1406b25af6be0d711d33a20d4e8de01ce8))
+* **deps-dev:** bump semantic-release from 17.2.2 to 17.2.3 ([94812e5](https://github.com/wmfs/asl-choice-processor/commit/94812e521b4293e0a88b010bacbc10f528a4e362))
+* **deps-dev:** bump semantic-release from 17.2.3 to 17.2.4 ([8fb8869](https://github.com/wmfs/asl-choice-processor/commit/8fb886950923ae7bdb1a8892a00b3a12c8aa1122))
+* **deps-dev:** bump semantic-release from 17.2.4 to 17.3.0 ([3362640](https://github.com/wmfs/asl-choice-processor/commit/33626402e94d2ab25a324d90c9babee1f51e295e))
+* **deps-dev:** bump semantic-release from 17.3.0 to 17.3.1 ([b2e5f63](https://github.com/wmfs/asl-choice-processor/commit/b2e5f634ee7a2154ab7aa29261b6960dd36630df))
+* **deps-dev:** bump semantic-release from 17.3.1 to 17.3.2 ([9b75aaf](https://github.com/wmfs/asl-choice-processor/commit/9b75aaf8c364877b6ba778e1f7996f9d20275816))
+* **deps-dev:** bump semantic-release from 17.3.2 to 17.3.3 ([d2ebd9f](https://github.com/wmfs/asl-choice-processor/commit/d2ebd9f738c4a112e982812842bdf11352524c9d))
+* **deps-dev:** bump standard from 15.0.1 to 16.0.0 ([265efa8](https://github.com/wmfs/asl-choice-processor/commit/265efa8b4188adad7c59bec1127911ff200d990e))
+* **deps-dev:** bump standard from 16.0.0 to 16.0.1 ([64e90f4](https://github.com/wmfs/asl-choice-processor/commit/64e90f46855bfb9ab6848f360db208b7133430cb))
+* **deps-dev:** bump standard from 16.0.1 to 16.0.2 ([d1bde02](https://github.com/wmfs/asl-choice-processor/commit/d1bde022872c0b08b77af6472ea361047690428c))
+* **deps-dev:** bump standard from 16.0.2 to 16.0.3 ([532d879](https://github.com/wmfs/asl-choice-processor/commit/532d8791dbf31c51492d78ab9ec28f22939fc9f2))
+
 # [1.17.0](https://github.com/wmfs/asl-choice-processor/compare/v1.16.0...v1.17.0) (2020-10-29)
 
 
