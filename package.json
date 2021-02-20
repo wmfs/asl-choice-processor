@@ -20,7 +20,7 @@
   "main": "./lib/index.js",
   "dependencies": {
     "jsonpath": "1.1.0",
-    "lodash": "4.17.20"
+    "lodash": "4.17.21"
   },
   "devDependencies": {
     "chai": "4.3.0",
