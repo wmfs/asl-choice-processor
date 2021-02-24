@@ -1,3 +1,18 @@
+# [1.19.0](https://github.com/wmfs/asl-choice-processor/compare/v1.18.0...v1.19.0) (2021-02-24)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.20 to 4.17.21 ([94cdc94](https://github.com/wmfs/asl-choice-processor/commit/94cdc9457e01ba515f44013f6abf687b98e56071))
+* **deps-dev:** bump chai from 4.2.0 to 4.3.0 ([eca7e0d](https://github.com/wmfs/asl-choice-processor/commit/eca7e0dd1d0e02680fc2458fdcb6fca3f6715949))
+* **deps-dev:** bump mocha from 8.2.1 to 8.3.0 ([045e5f4](https://github.com/wmfs/asl-choice-processor/commit/045e5f46ddba05282a62398f80afc510d1ef5aa7))
+* **deps-dev:** bump semantic-release from 17.3.3 to 17.3.4 ([cefa702](https://github.com/wmfs/asl-choice-processor/commit/cefa7020dcdd3c46c1cf327f64061a2b40df2578))
+* **deps-dev:** bump semantic-release from 17.3.4 to 17.3.5 ([f65d5f3](https://github.com/wmfs/asl-choice-processor/commit/f65d5f37710dcb2c1874a18ca50fb7b7de2c7d3f))
+* **deps-dev:** bump semantic-release from 17.3.5 to 17.3.6 ([13decf4](https://github.com/wmfs/asl-choice-processor/commit/13decf4ef55b2554ca0394242c52ce98286df640))
+* **deps-dev:** bump semantic-release from 17.3.6 to 17.3.7 ([574d1c0](https://github.com/wmfs/asl-choice-processor/commit/574d1c0898e7b11b2e825d72cebfd252e7ed2036))
+* **deps-dev:** bump semantic-release from 17.3.7 to 17.3.8 ([ab2cb63](https://github.com/wmfs/asl-choice-processor/commit/ab2cb63f1097577ed7838f5df6842feeeb61b685))
+* **deps-dev:** bump semantic-release from 17.3.8 to 17.3.9 ([9b799d4](https://github.com/wmfs/asl-choice-processor/commit/9b799d4cfbf596f792ee1ef9a0b3fbe5f4c82740))
+
 # [1.18.0](https://github.com/wmfs/asl-choice-processor/compare/v1.17.0...v1.18.0) (2021-01-19)
 
 
