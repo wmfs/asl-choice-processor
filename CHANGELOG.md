@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/wmfs/asl-choice-processor/compare/v1.20.0...v1.21.0) (2021-05-10)
+
+
+### 🛠 Builds
+
+* **deps:** use master branch for wmfs/jsonpath [ch6167] ([e3c98cf](https://github.com/wmfs/asl-choice-processor/commit/e3c98cf13aa2f47c146eea43a536bcdcc9aaf913))
+
 # [1.20.0](https://github.com/wmfs/asl-choice-processor/compare/v1.19.0...v1.20.0) (2021-05-10)
 
 
