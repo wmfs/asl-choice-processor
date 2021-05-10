@@ -1,3 +1,21 @@
+# [1.20.0](https://github.com/wmfs/asl-choice-processor/compare/v1.19.0...v1.20.0) (2021-05-10)
+
+
+### 🛠 Builds
+
+* **deps:** bump jsonpath from 1.1.0 to 1.1.1 ([3a838e6](https://github.com/wmfs/asl-choice-processor/commit/3a838e6d423c13e8436780125a165dbd963c81a8))
+* **deps-dev:** bump chai from 4.3.0 to 4.3.1 ([0e8bd6a](https://github.com/wmfs/asl-choice-processor/commit/0e8bd6aa6415df51c945c75f82c843cebaf97592))
+* **deps-dev:** bump chai from 4.3.1 to 4.3.2 ([c27e099](https://github.com/wmfs/asl-choice-processor/commit/c27e099160e40479b844cf6d58c66405f1d27620))
+* **deps-dev:** bump chai from 4.3.2 to 4.3.3 ([d1aa035](https://github.com/wmfs/asl-choice-processor/commit/d1aa035edc329647d0e4dc94bbbbf8b63abcddc1))
+* **deps-dev:** bump chai from 4.3.3 to 4.3.4 ([10565a8](https://github.com/wmfs/asl-choice-processor/commit/10565a8ecb9a10dad5007ebbcc8c5a27f8fc048f))
+* **deps-dev:** bump codecov from 3.8.1 to 3.8.2 ([faa18b8](https://github.com/wmfs/asl-choice-processor/commit/faa18b8eddadd52773bfd006b2478341dbabff46))
+* **deps-dev:** bump mocha from 8.3.0 to 8.3.1 ([292e3b0](https://github.com/wmfs/asl-choice-processor/commit/292e3b093c6b051e49a51ce382763ac759f3fbc4))
+* **deps-dev:** bump mocha from 8.3.1 to 8.3.2 ([3f413a9](https://github.com/wmfs/asl-choice-processor/commit/3f413a982a843eba69508b8a156df255758c8a67))
+* **deps-dev:** bump mocha from 8.3.2 to 8.4.0 ([e0bc522](https://github.com/wmfs/asl-choice-processor/commit/e0bc52251c9d5093082bdfa4a996958cb3e6af43))
+* **deps-dev:** bump semantic-release from 17.3.9 to 17.4.0 ([cd6596b](https://github.com/wmfs/asl-choice-processor/commit/cd6596b57f8e3c883b725dcf2ce699b256f773c4))
+* **deps-dev:** bump semantic-release from 17.4.0 to 17.4.1 ([88a69f6](https://github.com/wmfs/asl-choice-processor/commit/88a69f6d8bf3db4f95374ea5a36976fb39877568))
+* **deps-dev:** bump semantic-release from 17.4.1 to 17.4.2 ([2828779](https://github.com/wmfs/asl-choice-processor/commit/28287794378a1ea45f7d9acab9327e6e27043843))
+
 # [1.19.0](https://github.com/wmfs/asl-choice-processor/compare/v1.18.0...v1.19.0) (2021-02-24)
 
 
