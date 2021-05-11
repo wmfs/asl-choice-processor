@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/wmfs/asl-choice-processor/compare/v1.21.0...v1.22.0) (2021-05-11)
+
+
+### 🛠 Builds
+
+* **deps:** revert jsonpath to 1.1.1 [ch6167] ([0c95473](https://github.com/wmfs/asl-choice-processor/commit/0c95473a44b601b8ba080d78c6c237ab5604955e))
+
 # [1.21.0](https://github.com/wmfs/asl-choice-processor/compare/v1.20.0...v1.21.0) (2021-05-10)
 
 
