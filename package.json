@@ -19,7 +19,7 @@
   },
   "main": "./lib/index.js",
   "dependencies": {
-    "jsonpath": "wmfs/jsonpath#master",
+    "jsonpath": "1.1.1",
     "lodash": "4.17.21"
   },
   "devDependencies": {
