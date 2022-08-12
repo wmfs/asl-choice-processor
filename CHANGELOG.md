@@ -1,3 +1,55 @@
+# [1.23.0](https://github.com/wmfs/asl-choice-processor/compare/v1.22.0...v1.23.0) (2022-08-12)
+
+
+### ✨ Features
+
+* added IsPresent support ([a4329d9](https://github.com/wmfs/asl-choice-processor/commit/a4329d9d073a978164ecf9af60c0e61c404e6360))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump codecov from 3.8.2 to 3.8.3 ([712bddd](https://github.com/wmfs/asl-choice-processor/commit/712bddd2ba73ce27d34a1c51efff23c1ee74fe9a))
+* **deps-dev:** bump mocha from 8.4.0 to 9.0.0 ([64aa3d0](https://github.com/wmfs/asl-choice-processor/commit/64aa3d08cfb596ef4a41e4387a9fb1124231945a))
+* **deps-dev:** bump mocha from 9.0.0 to 9.0.1 ([050993c](https://github.com/wmfs/asl-choice-processor/commit/050993c781b17c04ff1d69f3a12e442ac3cbfed2))
+* **deps-dev:** bump mocha from 9.0.1 to 9.0.2 ([a40efde](https://github.com/wmfs/asl-choice-processor/commit/a40efde5d8b8337819ff24e04eb9ddeba3454a73))
+* **deps-dev:** bump mocha from 9.0.2 to 9.0.3 ([e6a16c0](https://github.com/wmfs/asl-choice-processor/commit/e6a16c0d192f0ea5fab80d4f74af606b09fbb8a1))
+* **deps-dev:** bump semantic-release from 17.4.2 to 17.4.3 ([5c714e4](https://github.com/wmfs/asl-choice-processor/commit/5c714e436c8a6a2654cdc0a4ea3cc4b4c4f200ed))
+* **deps-dev:** bump semantic-release from 17.4.3 to 17.4.4 ([afc6af8](https://github.com/wmfs/asl-choice-processor/commit/afc6af89d2d1a1c0b20afee7f36a0fa38ab32a68))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6 ([a2f795f](https://github.com/wmfs/asl-choice-processor/commit/a2f795f42a99e1cc120acce816733b7da5100cf2))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v10 ([d986753](https://github.com/wmfs/asl-choice-processor/commit/d986753b02758935c5dc42c39b581e9e0057a687))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v9.0.1 ([16b753d](https://github.com/wmfs/asl-choice-processor/commit/16b753d1ab1cebed3ba839213f1336ed23397127))
+* **deps-dev:** update dependency chai to v4.3.5 ([2f3103c](https://github.com/wmfs/asl-choice-processor/commit/2f3103cc87e410ce47bd7fa27817ff3cb0fa7a7a))
+* **deps-dev:** update dependency chai to v4.3.6 ([2ad7add](https://github.com/wmfs/asl-choice-processor/commit/2ad7add962a0b60b483f3b81357bd5b367702e9f))
+* **deps-dev:** update dependency mocha to v10 ([2233142](https://github.com/wmfs/asl-choice-processor/commit/2233142a3925884e4826a79cdebf6e59b3486177))
+* **deps-dev:** update dependency mocha to v9.1.0 ([fc4b92f](https://github.com/wmfs/asl-choice-processor/commit/fc4b92f4ba0d78f36db2bd1f880ca77b2c29ed5b))
+* **deps-dev:** update dependency mocha to v9.1.1 ([0ad11d8](https://github.com/wmfs/asl-choice-processor/commit/0ad11d8c5ce49fbf681fd2a9b2a97a074ed91bdf))
+* **deps-dev:** update dependency mocha to v9.1.2 ([932f4f4](https://github.com/wmfs/asl-choice-processor/commit/932f4f4583a107e700474acb533b8ec8df7afe8e))
+* **deps-dev:** update dependency mocha to v9.1.3 ([47ce905](https://github.com/wmfs/asl-choice-processor/commit/47ce90568f29cfb435144cec6fa0ad6dbe42b001))
+* **deps-dev:** update dependency mocha to v9.1.4 ([0402f9a](https://github.com/wmfs/asl-choice-processor/commit/0402f9aa14fcbdf4f2ff5e7c7bb22ca224609bf0))
+* **deps-dev:** update dependency mocha to v9.2.0 ([1566cb7](https://github.com/wmfs/asl-choice-processor/commit/1566cb75fffa6f2a37a6ca2c08ab79b5795d0365))
+* **deps-dev:** update dependency mocha to v9.2.1 ([764cec8](https://github.com/wmfs/asl-choice-processor/commit/764cec85cb4dbcadd3c0b1c65624e0b4c0ec6ac1))
+* **deps-dev:** update dependency mocha to v9.2.2 ([49f264e](https://github.com/wmfs/asl-choice-processor/commit/49f264e9a9e4d588ff649d42793027c7785f13b2))
+* **deps-dev:** update dependency semantic-release to v17.4.5 ([d5847a0](https://github.com/wmfs/asl-choice-processor/commit/d5847a0ae6fe34f87157271645d09219980bf33d))
+* **deps-dev:** update dependency semantic-release to v17.4.6 ([9e1eae6](https://github.com/wmfs/asl-choice-processor/commit/9e1eae62e7b59526d68054069a757c4a486dcc49))
+* **deps-dev:** update dependency semantic-release to v17.4.7 ([3cc6787](https://github.com/wmfs/asl-choice-processor/commit/3cc6787c40a2410c6e7d979ae1b99528fe99f63d))
+* **deps-dev:** update dependency semantic-release to v18 ([a2637ad](https://github.com/wmfs/asl-choice-processor/commit/a2637ad438cf3562130918cedefc67bb20994c26))
+* **deps-dev:** update dependency semantic-release to v18.0.1 ([4fba981](https://github.com/wmfs/asl-choice-processor/commit/4fba9817255c605ffcdee3f39704bb5932aa2693))
+* **deps-dev:** update dependency semantic-release to v19 ([5c5442f](https://github.com/wmfs/asl-choice-processor/commit/5c5442f7421dcaeab81c2de3d8aee113b02639ef))
+* **deps-dev:** update dependency semantic-release to v19.0.3 ([a6747df](https://github.com/wmfs/asl-choice-processor/commit/a6747dfdc80b51e34b9b52427c52a4e09bf87f8f))
+* **deps-dev:** update dependency standard to v16.0.4 ([d760224](https://github.com/wmfs/asl-choice-processor/commit/d760224bb33f2a964ed173a33c51fa290f60a9b8))
+* **deps-dev:** update dependency standard to v17 ([56d5e3f](https://github.com/wmfs/asl-choice-processor/commit/56d5e3f059839530235ba16b657b7272e91b988b))
+* **deps-dev:** update semantic-release monorepo ([bc62bcd](https://github.com/wmfs/asl-choice-processor/commit/bc62bcd1f225747199d6510f39a8cf46bfb238e6))
+
+
+### ♻️ Chores
+
+* add renovate config [ch6600] ([9de7776](https://github.com/wmfs/asl-choice-processor/commit/9de77760c6fa816550069d4f496d3cf68e23b086))
+
+
+### 💎 Styles
+
+* standard ([86c9d94](https://github.com/wmfs/asl-choice-processor/commit/86c9d9421b88b6463e91682d52497eb1e82a5e8a))
+
 # [1.22.0](https://github.com/wmfs/asl-choice-processor/compare/v1.21.0...v1.22.0) (2021-05-11)
 
 
