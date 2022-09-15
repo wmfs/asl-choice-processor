@@ -1,3 +1,17 @@
+# [1.24.0](https://github.com/wmfs/asl-choice-processor/compare/v1.23.0...v1.24.0) (2022-09-15)
+
+
+### ✨ Features
+
+* IsBoolean operator ([b2ef9da](https://github.com/wmfs/asl-choice-processor/commit/b2ef9da9440fd8fd97f6ca413e6ac1947b31f546))
+* IsString operator ([52fcedd](https://github.com/wmfs/asl-choice-processor/commit/52fcedd2df00c03027369882986f7d63c541a87c))
+
+
+### 📦 Code Refactoring
+
+* tidy up IsNull and extend tests ([f5efe84](https://github.com/wmfs/asl-choice-processor/commit/f5efe84d1590c6d47dede3faeaa366c5012fbd0f))
+* tidy up IsUndefined and extend tests ([00dea40](https://github.com/wmfs/asl-choice-processor/commit/00dea40f86d7bf5932841807d05ec6c73264941e))
+
 # [1.23.0](https://github.com/wmfs/asl-choice-processor/compare/v1.22.0...v1.23.0) (2022-08-12)
 
 
