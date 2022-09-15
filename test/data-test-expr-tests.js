@@ -77,6 +77,19 @@ const tests = {
     [0, true, 'DefaultState'],
     [false, true, 'DefaultState']
   ],
+  IsUndefined: [
+    [undefined, true, 'NextState'],
+    ['HELLO_WORLD', false, 'NextState'],
+    [null, false, 'NextState'],
+    [0, false, 'NextState'],
+    [false, false, 'NextState'],
+
+    [undefined, false, 'DefaultState'],
+    ['HELLO_WORLD', true, 'DefaultState'],
+    [null, true, 'DefaultState'],
+    [0, true, 'DefaultState'],
+    [false, true, 'DefaultState']
+  ],
   IsBoolean: [
     ['nope', false, 'NextState'],
     [true, true, 'NextState'],
