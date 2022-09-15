@@ -70,6 +70,14 @@ const tests = {
 
     [null, false, 'DefaultState'],
     ['HELLO_WORLD', true, 'DefaultState']
+  ],
+  IsBoolean: [
+    ['nope', false, 'NextState'],
+    [true, true, 'NextState'],
+    [false, true, 'NextState'],
+    ['nope', true, 'DefaultState'],
+    [true, false, 'DefaultState'],
+    [false, false, 'DefaultState']
   ]
 }
 
