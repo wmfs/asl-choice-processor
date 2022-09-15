@@ -67,14 +67,21 @@ const tests = {
   IsNull: [
     [null, true, 'NextState'],
     ['HELLO_WORLD', false, 'NextState'],
+    [undefined, false, 'NextState'],
+    [0, false, 'NextState'],
+    [false, false, 'NextState'],
 
     [null, false, 'DefaultState'],
-    ['HELLO_WORLD', true, 'DefaultState']
+    ['HELLO_WORLD', true, 'DefaultState'],
+    [undefined, true, 'DefaultState'],
+    [0, true, 'DefaultState'],
+    [false, true, 'DefaultState']
   ],
   IsBoolean: [
     ['nope', false, 'NextState'],
     [true, true, 'NextState'],
     [false, true, 'NextState'],
+
     ['nope', true, 'DefaultState'],
     [true, false, 'DefaultState'],
     [false, false, 'DefaultState']
