@@ -98,6 +98,19 @@ const tests = {
     ['nope', true, 'DefaultState'],
     [true, false, 'DefaultState'],
     [false, false, 'DefaultState']
+  ],
+  IsString: [
+    ['yep', true, 'NextState'],
+    [0, false, 'NextState'],
+    [true, false, 'NextState'],
+    [undefined, false, 'NextState'],
+    [null, false, 'NextState'],
+
+    ['yep', false, 'DefaultState'],
+    [0, true, 'DefaultState'],
+    [true, true, 'DefaultState'],
+    [undefined, true, 'DefaultState'],
+    [null, true, 'DefaultState']
   ]
 }
 
