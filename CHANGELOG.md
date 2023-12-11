@@ -1,3 +1,10 @@
+## [1.24.1](https://github.com/wmfs/asl-choice-processor/compare/v1.24.0...v1.24.1) (2023-12-11)
+
+
+### Bug Fixes
+
+* **includes:** check for array ([40c7698](https://github.com/wmfs/asl-choice-processor/commit/40c7698d716099d8f96aad7e1ec1be0a9a7f0a5e))
+
 # [1.24.0](https://github.com/wmfs/asl-choice-processor/compare/v1.23.0...v1.24.0) (2022-09-15)
 
 
