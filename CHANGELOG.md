@@ -1,3 +1,5 @@
+## [1.25.1](https://github.com/wmfs/asl-choice-processor/compare/v1.25.0...v1.25.1) (2026-08-13)
+
 ## [1.25.0](https://github.com/wmfs/asl-choice-processor/compare/v1.24.1...v1.25.0) (2025-10-21)
 
 ### Build system dependencies :hammer:
