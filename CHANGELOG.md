@@ -1,3 +1,22 @@
+## [1.26.0](https://github.com/wmfs/asl-choice-processor/compare/v1.25.1...v1.26.0) (2026-10-30)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** fix conventionalcommit versions [sc-34125] ([ad01cbc](https://github.com/wmfs/asl-choice-processor/commit/ad01cbc562209cac0fbf24997b4c7366a53914f5))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.0 ([#388](https://github.com/wmfs/asl-choice-processor/issues/388)) ([3fddaad](https://github.com/wmfs/asl-choice-processor/commit/3fddaadfa290104c63d7a43f86d3606ff5d51d83))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.1 ([#393](https://github.com/wmfs/asl-choice-processor/issues/393)) ([c00652f](https://github.com/wmfs/asl-choice-processor/commit/c00652ffb2fb0e9320f5e8e385694e19b7883945))
+* **deps-dev:** update dependency mocha to v12 ([#389](https://github.com/wmfs/asl-choice-processor/issues/389)) ([0345292](https://github.com/wmfs/asl-choice-processor/commit/0345292412a9d2f38170b6ca209e6e5266789d6c))
+* **deps-dev:** update dependency mocha to v12.0.1 ([#390](https://github.com/wmfs/asl-choice-processor/issues/390)) ([709a574](https://github.com/wmfs/asl-choice-processor/commit/709a5743b9a0532e0452fdc8ac1900f6bbd43f8e))
+* **deps-dev:** update dependency mocha to v12.0.2 ([#391](https://github.com/wmfs/asl-choice-processor/issues/391)) ([b353f00](https://github.com/wmfs/asl-choice-processor/commit/b353f00e7a1563ab3334ecf2b8d2968bd45e6298))
+* **deps-dev:** update dependency mocha to v12.0.3 ([#392](https://github.com/wmfs/asl-choice-processor/issues/392)) ([b0ae817](https://github.com/wmfs/asl-choice-processor/commit/b0ae81761291b3f8a51fe2c8997d4280499f1c98))
+* **deps:** update dependency jsonpath to v1.3.0 [security] ([#362](https://github.com/wmfs/asl-choice-processor/issues/362)) ([b0cfa07](https://github.com/wmfs/asl-choice-processor/commit/b0cfa0724a0eee6239fe14cde4372a1fa44b8889))
+* **deps:** update dependency lodash to v4.18.1 [security] ([#358](https://github.com/wmfs/asl-choice-processor/issues/358)) ([e611945](https://github.com/wmfs/asl-choice-processor/commit/e611945041527a3e1ed3ebbb589ef1c77756dbe4))
+
+### CICD Configuration Changes :construction_worker:
+
+* use github-app-token orb for release token [sc-34101] ([#394](https://github.com/wmfs/asl-choice-processor/issues/394)) ([f9416a2](https://github.com/wmfs/asl-choice-processor/commit/f9416a2e2639ba6edad7ade01211cabc780afff8))
+* use shared renovate preset [sc-34117] ([#395](https://github.com/wmfs/asl-choice-processor/issues/395)) ([56c1093](https://github.com/wmfs/asl-choice-processor/commit/56c1093ec40cf84aebab536db647d6df34a907af))
+
 ## [1.25.1](https://github.com/wmfs/asl-choice-processor/compare/v1.25.0...v1.25.1) (2026-08-13)
 
 ## [1.25.0](https://github.com/wmfs/asl-choice-processor/compare/v1.24.1...v1.25.0) (2025-10-21)
