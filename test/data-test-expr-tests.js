@@ -57,12 +57,11 @@ const tests = {
   ],
   StringEquals: [
     ['Hello World', 'Hello World', 'NextState'],
-    [null, null, 'NextState'],
-    [undefined, undefined, 'NextState'],
-    [1, 1, 'NextState'],
 
     ['Hello World', 'Hello WORLD', 'DefaultState'],
-    ['1', 1, 'DefaultState'] // todo: should we .toString() on the comparison and input values?
+    [1, '1', 'DefaultState'],
+    [null, 'null', 'DefaultState']
+    // Non-string comparison values are rejected - see spec-compliance-tests.js
   ],
   IsNull: [
     [null, true, 'NextState'],
