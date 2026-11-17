@@ -1,0 +1,7 @@
+{ "StartAt": "P", "States": {
+  "P": { "Type": "Parallel", "Branches": [ { "StartAt": "Inner", "States": { "Inner": { "Type": "Choice", "Choices": [ { "Variable": "$.status", "StringEquals": null, "Next": "X" } ] }, "X": { "Type": "Succeed" } } } ], "Next": "M" },
+  "M": { "Type": "Map", "ItemsPath": "$.items", "Iterator": { "StartAt": "IC", "States": { "IC": { "Type": "Choice", "Choices": [ { "Variable": "$.qty", "NumericEquals": "5", "Next": "Y" } ] }, "Y": { "Type": "Succeed" } } }, "Next": "C" },
+  "C": { "Type": "Choice", "Choices": [
+    { "Variable": "$.flag", "IsPresent": "true", "Next": "Z" }
+  ], "Default": "Z" },
+  "Z": { "Type": "Succeed" } } }

@@ -18,6 +18,9 @@
     "url": "https://github.com/wmfs/asl-choice-processor/issues"
   },
   "main": "./lib/index.js",
+  "bin": {
+    "asl-choice-check": "cli/check-choice-states.js"
+  },
   "dependencies": {
     "jsonpath": "1.3.0",
     "lodash": "4.18.1"

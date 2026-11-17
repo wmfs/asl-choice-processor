@@ -1,0 +1,1 @@
+{ "StartAt": "C", "States": { "C": { "Type": "Choice", "Choices": [ { "Variable": "$.n", "NumericGreaterThan": 10, "Next": "Big" }, { "Variable": "$.when", "TimestampLessThanPath": "$$.Execution.StartTime", "Next": "Old" } ], "Default": "Small" }, "Big": { "Type": "Succeed" }, "Small": { "Type": "Succeed" }, "Old": { "Type": "Succeed" } } }

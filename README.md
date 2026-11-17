@@ -94,6 +94,51 @@ These aren't part of the spec and are kept for compatibility:
 
 JSONata Choice states (`QueryLanguage: "JSONata"` and `Condition` rules) are rejected with a `ChoiceDefinitionError`.
 
+## <a name="upgrading"></a>Upgrading from 1.x
+
+2.0 follows the States Language spec strictly:
+
+- **Invalid definitions now fail when they're loaded**, with a `ChoiceDefinitionError`. Before, they quietly did something odd at runtime.
+- **Comparisons no longer convert types.** A value of the wrong type no longer matches, so the execution moves on to the next rule or `Default`.
+
+### Check your state machines
+
+Run the checker over the folders that hold your state machine JSON files, e.g. a Tymly checkout:
+
+```bash
+npx -p @wmfs/asl-choice-processor@2 asl-choice-check ~/dev/tymly
+```
+
+It checks every Choice state, including those inside `Parallel` branches and `Map` iterators, and skips `node_modules`. It reports:
+
+- **`ERROR`**: this definition fails to load on 2.0. Fix these before upgrading.
+- **`REVIEW`**: this definition loads, but may take a different branch when a value isn't the expected type. Check what data actually reaches these rules.
+
+It exits with code 1 if there are any errors, so you can run it in CI. It reports one error per Choice state at a time, so fix and re-run until it's clean.
+
+### Fixing errors
+
+| Error message contains | 1.x | Fix |
+|---|---|---|
+| `StringEquals must be a string, got null` | `"StringEquals": null` | `"IsNull": true` |
+| `NumericEquals must be a number, got "5"` | `"NumericEquals": "5"` | `"NumericEquals": 5`. If the *input* is the string `"5"`, use `"StringEquals": "5"` instead. |
+| `must be a boolean, got "true"` | `"IsPresent": "true"` | `"IsPresent": true` |
+| `StringEquals must be a string, got false` | `"StringEquals": false` | `"BooleanEquals": false` |
+| `must be an RFC3339 timestamp` | `"TimestampEquals": "2026-01-01"` | `"TimestampEquals": "2026-01-01T00:00:00Z"` |
+| `unrecognised: …` | `"NumericEqual": 1` | Fix the operator name. See [Supported operators](#operators). |
+| `only one operator is allowed per rule` | two operators in one rule | Split them with `And` |
+| `top-level Choice Rules must have a Next` | a rule in `Choices` with no `Next` | Add `"Next"` |
+| `Variable must be a Path starting with "$"` | `"Variable": "type"` | `"Variable": "$.type"` |
+| `…Path must be a Path starting with "$"` | `"NumericEqualsPath": 5` | Use `"NumericEquals": 5` for a fixed value |
+
+Every fix in the table also works on 1.x, so you can fix definitions before you upgrade.
+
+### Checking `REVIEW` rules
+
+- **`Numeric*`:** 1.x matched numeric strings, e.g. `"10"` was greater than `5`, and `null`, `false` and `[]` matched `NumericLessThan`. Now only numbers match. Save the value as a number, convert it in `Parameters` with `States.StringToJson`, or compare it with `StringEquals`.
+- **`Timestamp*`:** values are compared as points in time, and anything that isn't a full RFC3339 timestamp never matches. `new Date().toISOString()` always produces a valid one.
+- **`…Path` operators:** the value read from the input must be the right type too. For example, `StringEqualsPath` no longer matches `null` to `null` or missing to missing. If a rule compares a user's email with a record's, also check the email isn't blank, e.g. `{ "Variable": "$.email", "StringGreaterThan": "" }`, because `''` still equals `''`.
+
 ## <a name="tests"></a>Tests
 ```bash
 $ npm test
