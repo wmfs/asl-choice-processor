@@ -1,5 +1,0 @@
-{ "StartAt": "C", "States": { "C": { "Type": "Choice", "Choices": [
-  { "And": [ { "Variable": "$.a", "NumericEqual": 1 }, { "Variable": "$.b", "IsNull": false } ], "Next": "Z" },
-  { "Variable": "$.c", "StringEquals": "x", "IsNull": false, "Next": "Z" },
-  { "Variable": "$.d", "BooleanEquals": true }
-] }, "Z": { "Type": "Succeed" } } }

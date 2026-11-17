@@ -101,20 +101,9 @@ JSONata Choice states (`QueryLanguage: "JSONata"` and `Condition` rules) are rej
 - **Invalid definitions now fail when they're loaded**, with a `ChoiceDefinitionError`. Before, they quietly did something odd at runtime.
 - **Comparisons no longer convert types.** A value of the wrong type no longer matches, so the execution moves on to the next rule or `Default`.
 
-### Check your state machines
+### Finding affected state machines
 
-Run the checker over the folders that hold your state machine JSON files, e.g. a Tymly checkout:
-
-```bash
-npx -p @wmfs/asl-choice-processor@2 asl-choice-check ~/dev/tymly
-```
-
-It checks every Choice state, including those inside `Parallel` branches and `Map` iterators, and skips `node_modules`. It reports:
-
-- **`ERROR`**: this definition fails to load on 2.0. Fix these before upgrading.
-- **`REVIEW`**: this definition loads, but may take a different branch when a value isn't the expected type. Check what data actually reaches these rules.
-
-It exits with code 1 if there are any errors, so you can run it in CI. It reports one error per Choice state at a time, so fix and re-run until it's clean.
+Because definitions are checked when `choiceProcessor()` is called, loading your state machines shows any that need fixing. With statebox, every Choice state is checked when state machines are created, e.g. when Tymly starts, and the error names the rule (e.g. `Choices[1]`). Fix the errors first, then check rules that compare values whose type may vary (see [Checking comparisons](#checking-comparisons)).
 
 ### Fixing errors
 
@@ -133,7 +122,7 @@ It exits with code 1 if there are any errors, so you can run it in CI. It report
 
 Every fix in the table also works on 1.x, so you can fix definitions before you upgrade.
 
-### Checking `REVIEW` rules
+### <a name="checking-comparisons"></a>Checking comparisons
 
 - **`Numeric*`:** 1.x matched numeric strings, e.g. `"10"` was greater than `5`, and `null`, `false` and `[]` matched `NumericLessThan`. Now only numbers match. Save the value as a number, convert it in `Parameters` with `States.StringToJson`, or compare it with `StringEquals`.
 - **`Timestamp*`:** values are compared as points in time, and anything that isn't a full RFC3339 timestamp never matches. `new Date().toISOString()` always produces a valid one.

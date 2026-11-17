@@ -1,1 +1,0 @@
-{"StartAt":"x","States":{"a":{"Type":"Parallel","Branches":{"no":1}},"b":"str"}}
